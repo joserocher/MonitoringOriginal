@@ -1,0 +1,140 @@
+[
+    {
+        "targets": [
+            "10.0.5.211:8761"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"eureka-server"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:9083"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"gateway-proxy"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:20004"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"data-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:20005"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"datawarehouse-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:20015"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"goimportdb-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:20009"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"goimportsap-service"
+        }
+    }
+    ,
+    {
+        "targets": [
+            "10.0.5.211:20025"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"goimport-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:20008"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"hierarchy-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:20007"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"metric-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:20006"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"notification-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:20019"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"reading-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:20003"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"security-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:20013"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"sensorization-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:20014"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"supplypointstats-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:20002"
+        ],
+        "labels": {
+            "__metrics_path__": "/actuator/prometheus",
+            "job":"user-service"
+        }
+    }
+]
+
+

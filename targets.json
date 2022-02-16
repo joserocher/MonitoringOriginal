@@ -1,0 +1,121 @@
+[
+    {
+        "targets": [
+            "10.0.5.211:8080"
+        ],
+        "labels": {
+            "__metrics_path__": "/microservice-template/actuator/prometheus",
+            "job":"microservice-template"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:8080"
+        ],
+        "labels": {
+            "__metrics_path__": "/security-service/actuator/prometheus",
+            "job":"security-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:8080"
+        ],
+        "labels": {
+            "__metrics_path__": "/hierarchy-service/actuator/prometheus",
+            "job":"hierarchy-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:8080"
+        ],
+        "labels": {
+            "__metrics_path__": "/datawarehouse-service/actuator/prometheus",
+            "job":"datawarehous-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:8080"
+        ],
+        "labels": {
+            "__metrics_path__": "/sensorization-service/actuator/prometheus",
+            "job":"sensorization-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:8080"
+        ],
+        "labels": {
+            "__metrics_path__": "/supplypointstats-service/actuator/prometheus",
+            "job":"supplypointstats-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:8080"
+        ],
+        "labels": {
+            "__metrics_path__": "/user-service/actuator/prometheus",
+            "job":"user-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:8080"
+        ],
+        "labels": {
+            "__metrics_path__": "/metric-service/actuator/prometheus",
+            "job":"metric-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:8080"
+        ],
+        "labels": {
+            "__metrics_path__": "/notification-service/actuator/prometheus",
+            "job":"notification-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:8080"
+        ],
+        "labels": {
+            "__metrics_path__": "/reading-service/actuator/prometheus",
+            "job":"reading-service"
+        }
+    },
+    {
+        "targets": [
+           "10.0.5.211:8080"
+        ],
+        "labels": {
+            "__metrics_path__": "/data-service/actuator/prometheus",
+            "job":"data-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:8080"
+        ],
+        "labels": {
+            "__metrics_path__": "/goimport-service/actuator/prometheus",
+            "job":"goimport-service"
+        }
+    },
+    {
+        "targets": [
+            "10.0.5.211:8080"
+        ],
+        "labels": {
+            "__metrics_path__": "/goimportdb-service/actuator/prometheus",
+            "job":"goimportdb-service"
+        }
+    }
+]
+
+
